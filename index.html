@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <style>
+      body { background-color: #666; }
+    </style>
+  </head>
+  <body>
+    <div id="player"></div>
+    <script type="text/javascript" src="js/dev/goog/base.js"></script>
+    <script src="dev.js" type="text/javascript"></script>
+    <script type="text/javascript">goog.require('asciinema.player.js')</script>
+    <script type="text/javascript">
+      asciinema.player.js.CreatePlayer('player', '21195.json', {});
+    </script>
+  </body>
+</html>
